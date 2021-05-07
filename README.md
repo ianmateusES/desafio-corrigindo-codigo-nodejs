@@ -78,7 +78,7 @@ Para que esse teste passe, é necessário que você conclua o teste anterior. Se
 
 - **Should be able to update repository**
 
-Para que esse teste passe, você deve permitir que um repositório seja atualizado a partir de seu `id` pela rota **PUT** `/repositories/:id` usando as [informações recebidas pelo corpo da requisição](#put-repositories-id). Lembre-se de manter as informações que não foram passadas pelo corpo, por exemplo:
+Para que esse teste passe, você deve permitir que um repositório seja atualizado a partir de seu `id` pela rota **PUT** `/repositories/:id` usando as informações recebidas pelo corpo da requisição. Lembre-se de manter as informações que não foram passadas pelo corpo, por exemplo:
 Se o usuário quiser trocar apenas o `title`, mantenha `url` e `techs` que já estavam no repositório.
 
 - **Should not be able to update a non existing repository**
