@@ -1,4 +1,4 @@
-# 💻 Sobre o desafio
+# :computer: Sobre o desafio
 
 Nesse desafio, temos uma aplicação Node.js que está em processo de desenvolvimento mas que já possui os testes necessários para fazer toda a validação dos requisitos (você não deve mexer nos testes).
 Após algumas alterações no código da aplicação, parte dos testes deixaram de passar e agora só você pode resolver esse problema. Bora lá? 🚀
@@ -68,7 +68,7 @@ Para esse desafio, temos os seguintes testes:
 
 - **Should be able to create a new repository**
 
-Para que esse teste passe, você deve permitir que um novo repositório seja cadastrado pela rota **POST** `/repositories`. Caso precise confirmar o formato do objeto, você pode olhar [aqui.](https://www.notion.so/Desafio-03-Corrigindo-o-c-digo-c15c8a2e212846039a367cc7b763c6dd) 
+Para que esse teste passe, você deve permitir que um novo repositório seja cadastrado pela rota **POST** `/repositories`. Caso precise confirmar o formato do objeto, você pode olhar [aqui.](#computer-sobre-o-desafio) 
 
 Também é necessário que você retorne a resposta com o código `201`.
 
@@ -78,7 +78,7 @@ Para que esse teste passe, é necessário que você conclua o teste anterior. Se
 
 - **Should be able to update repository**
 
-Para que esse teste passe, você deve permitir que um repositório seja atualizado a partir de seu `id` pela rota **PUT** `/repositories/:id` usando as [informações recebidas pelo corpo da requisição](https://www.notion.so/Desafio-03-Corrigindo-o-c-digo-c15c8a2e212846039a367cc7b763c6dd). Lembre-se de manter as informações que não foram passadas pelo corpo, por exemplo:
+Para que esse teste passe, você deve permitir que um repositório seja atualizado a partir de seu `id` pela rota **PUT** `/repositories/:id` usando as [informações recebidas pelo corpo da requisição](#put-repositories-id). Lembre-se de manter as informações que não foram passadas pelo corpo, por exemplo:
 Se o usuário quiser trocar apenas o `title`, mantenha `url` e `techs` que já estavam no repositório.
 
 - **Should not be able to update a non existing repository**
